@@ -1,0 +1,55 @@
+some sql commands 
+DDL COMMANDS:- 
+defination is ddl is short name of data descrption language. which deals with database schemas and
+and descrptions. of how the data should be reside in the database.
+1.CREATE - to create databse and its objects like (table,index view, store procedure,funtion and 
+           triggers).
+           
+            CREATE TABLE table_name(column1 datatype,column2 datatype);
+2.ALTER - alters the stucture of the existing database.
+           alter table table_name add column_name datatype;
+3.DROP  - delete objects from the database
+              
+4.TRUNCATE -remove all records from a table; also all spaces allocated for the records are rmoved.
+5.COMMENT - add comments to the data dictionary.
+6.RENAME- rename an object.
+
+DML COMMANDS:-
+is the short name of data manipulation language which deals with the data manipulation. and
+includes most common SQL statements such SELECT,UPDATE,INSERT,DELETE etc. and it is used to store.
+modify,retrieve,delete and update data in database.
+
+1.SELECT
+2.INSERT:- insert the data into table
+           insert into table_name values(......);
+3.UPDATE:- update table_name set ....... where keycolumn;
+4.DELETE:- delete from table_name where keycolumn;
+
+
+question no1:-
+ what is the difference b/w drop and truncate?
+if we use drop, table and table records will be deleted.if we use truncate, table records will be 
+deleted not table
+
+delete through this we can delete the particular required rows
+
+question no2:-
+define primarykey and forgienkey
+primarykey- is nothing but it is unique key it will not allows duplicates and nulls
+forigenkey- is nothing but reference of primary key column and having duplicates as well
+
+
+some important commands
+
+1.to find out how many tables we have is
+
+        "select table_name from user_tables;"
+
+2.commands of types of joins is 
+  
+  left join     "
+
+
+
+
+
